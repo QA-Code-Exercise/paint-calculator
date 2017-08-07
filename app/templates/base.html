@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1>Calculating Paint Required</h1>
+    {% block body %}
+    {% endblock %}
+</div> <!-- /container -->
+<footer>
+    <p class="text-center">1 gallon of paint is required for every 400ft of surface.</p>
+    <p class="text-center">Area to paint is L*W*H</p>
+    <p class="text-center">Gallons required will be rounded up.</p>
+</footer>
+</body>
+</html>

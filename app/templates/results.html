@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Results!{% endblock %}
+{% block body %}
+
+<table name="Results" class="table">
+    <tr>
+        <th>Room #</th>
+        <th>Amount of Feet to Paint</th>
+        <th>Gallons Required</th>
+    </tr>
+    {% for row in all_data %}
+    <tr>
+        <td>
+            {{ row['room'] }}
+        </td>
+        <td>
+            {{ row['ft'] }}
+        </td>
+        <td>
+            {{ row['gallons'] }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h5>Total Gallons Required: {{ total_gallons_required }}</h5>
+
+{% endblock %}

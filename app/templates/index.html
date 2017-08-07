@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Calculating Paint Amount{% endblock %}
+{% block body %}
+
+<p class="lead">Enter the number of rooms</p>
+<form action="dimensions" method="get">
+    <input type="number" name="rooms" />
+    <input type="submit" />
+</form>
+
+{% endblock %}
