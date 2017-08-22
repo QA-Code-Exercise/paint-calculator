@@ -16,13 +16,13 @@
                 {{ room + 1 }}
             </td>
             <td>
-                <input type="number" name="length-{{ room }}" min="1">
+                <input type="number" name="length-{{ room }}" min="1" required/>
             </td>
             <td>
-                <input type="number" name="width-{{ room }}" min="1">
+                <input type="number" name="width-{{ room }}" min="1" required/>
             </td>
             <td>
-                <input type="number" name="height-{{ room }}" id="height" min="1">
+                <input type="number" name="height-{{ room }}" id="height" min="1" required/>
             </td>
         </tr>
         {% endfor %}
