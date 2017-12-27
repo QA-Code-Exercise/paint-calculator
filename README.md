@@ -21,18 +21,24 @@ The **Paint Calculator** is a hypothetical project that calculates how many gall
 Because each applicant's code should be secret from one another, we should not submit it to the same repo.
 
 1. Clone the repo (do not fork)
-1. Create a new repo on Github and use what is cloned as the initial commit
-1. Create a new branch off of master to put your changes on
-1. Run the application locally
+2. Create a new public repo on Github
+3. Add the new repo as as a new remote
+* `git remote add uptake <url>`
+4. Initialize the new repo with what is cloned
+* `git push uptake master`
+5. Create a new branch off of master to put your changes on
+6. Run the application locally
 * `pip3 install -r requirements.txt`
 * `python3 app/run.py`
-5. Perform testing and debugging activities
+7. Perform testing and debugging activities
 
 ## Submitting 
 
 To make it easier on everybody, it's best if we use a PR to diff what work was completed.
 
-1. Create a PR to your new repo
-1. Make sure you include your test plan and any automated tests
-1. Include any other text in a file - which tests would be suited for a lower level execution, or any problems encountered...etc
-1. Send the link to the PR
+1. Make any and all commits to your new branch and push the changes
+* `git push uptake <branch>`
+2. Create a PR to your new repo
+3. Make sure you include your test plan and any automated tests
+4. Include any other text in a file - which tests would be suited for a lower level execution, or any problems encountered...etc
+5. Send the link to the PR
