@@ -39,6 +39,10 @@ To make it easier on everybody, it's best if we use a PR to diff what work was c
 1. Make any and all commits to your new branch and push the changes
 * `git push uptake <branch>`
 2. Create a PR to your new repo
-3. Make sure you include your test plan and any automated tests
+3. Make sure you include your test plan and any automated tests, as well as update this README to instruct someone on how to run the tests
 4. Include any other text in a file - which tests would be suited for a lower level execution, or any problems encountered...etc
 5. Send the link to the PR
+
+## Running Tests
+
+Write instructions for how a user executes the automated tests you created.
