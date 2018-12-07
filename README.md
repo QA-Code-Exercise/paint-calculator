@@ -24,9 +24,9 @@ Because each applicant's code should be secret from one another, we should not s
 1. Clone the repo (do not fork)
 2. Create a new public repo on Github
 3. Add the new repo as as a new remote
-* `git remote add uptake <url>`
+* `git remote add acme <url>`
 4. Initialize the new repo with what is cloned
-* `git push uptake master`
+* `git push acme master`
 5. Create a new branch off of master to put your changes on
 6. Run the application locally
 * `pip3 install -r requirements.txt`
@@ -38,7 +38,7 @@ Because each applicant's code should be secret from one another, we should not s
 To make it easier on everybody, it's best if we use a PR to diff what work was completed.
 
 1. Make any and all commits to your new branch and push the changes
-* `git push uptake <branch>`
+* `git push acme <branch>`
 2. Create a PR to your new repo
 3. Make sure you include your test plan and any automated tests, as well as update this README to instruct someone on how to run the tests
 4. Include any other text in a file - which tests would be suited for a different level of execution, or any problems encountered...etc
