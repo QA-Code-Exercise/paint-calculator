@@ -29,7 +29,7 @@ Because each applicant's code should be secret from one another, we should not s
 * `git push acme master`
 5. Create a new branch off of master to put your changes on
 6. Run the application locally
-* `pip3 install -r requirements.txt`
+* `pip3 install -e .`
 * `python3 app/run.py`
 7. Perform testing and debugging activities
 

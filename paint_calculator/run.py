@@ -88,4 +88,4 @@ def extract_room_info(data, room_number):
 
 # Boiler plate for starting the application
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
